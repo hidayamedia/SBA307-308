@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AmunaDoesIt - Blog</title>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cormorant+Infant:ital,wght@1,300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav class="nav-classes">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li>
+          <a href="blog.html">Blog</a>
+        </li>
+        <li><a href="inspiration.html">Inspiration</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="blog">
+      <h2>Blog</h2>
+      <div class="blog-posts">
+        <article class="blog-card">
+          <img src="https://photos.app.goo.gl/CZNuZ5irvotR2we27" alt="Blog Post 1 Image">
+          <div class="blog-content">
+            <h3>Blog Post Title 1</h3>
+            <p class="blog-excerpt">This is a short excerpt from the first blog post...</p>
+            <a href="#" class="read-more">Read More</a>
+          </div>
+        </article>
+        <article class="blog-card">
+          <img src="https://photos.app.goo.gl/3a4Hz31zjxkyZcve7" alt="Blog Post 2 Image">
+          <div class="blog-content">
+            <h3>Blog Post Title 2</h3>
+            <p class="blog-excerpt">This is a short excerpt from the second blog post...</p>
+            <a href="#" class="read-more">Read More</a>
+          </div>
+        </article>
+        <div class="blog-posts">
+          <article class="blog-card">
+            <img src="https://photos.app.goo.gl/H9MFzzWB6zArC9feA" alt="Blog Post 1 Image">
+            <div class="blog-content">
+              <h3>Blog Post Title 3</h3>
+              <p class="blog-excerpt">This is a short excerpt from the first blog post...</p>
+              <a href="#" class="read-more">Read More</a>
+            </div>
+          </article>
+          <article class="blog-card">
+            <img src="https://photos.app.goo.gl/dMDrVc4m7WSGGkDZ9" alt="Blog Post 2 Image">
+            <div class="blog-content">
+              <h3>Blog Post Title 4</h3>
+              <p class="blog-excerpt">This is a short excerpt from the second blog post...</p>
+              <a href="#" class="read-more">Read More</a>
+            </div>
+          </article>
+          <!-- Add more blog post cards as needed -->
+        </div>
+        
+      </div>
+      
+      <div class="form-container">
+        <form id="contactForm">
+          <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="form-group">
+            <label for="message">Topic Suggestion:</label>
+            <textarea id="message" name="message" required></textarea>
+          </div>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 AmunaDoesIt</p>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
