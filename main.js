@@ -41,6 +41,6 @@ $(document).ready(function() {
 
   function loadMoreInspiration() {
     console.log('Loading more inspiration...');
-    // Example: Use AJAX to fetch more content
+    // 
   }
 });
